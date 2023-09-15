@@ -1,0 +1,118 @@
+.padre{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto;
+    grid-template-rows: repeat(7,1fr);
+    grid-gap: 10px;
+    grid-template-areas: 
+    "vbnet cmas cnumeral jnumeral puntos visual"
+    "cls cls cls cls cls visual"
+    "divi divi divi divi divi visual"
+    "adonet adonet adonet adonet adonet visual"
+    "base base base base base visual"
+    "common common common common common visual"
+    "os os os os os visual";
+
+}
+.padre >*{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.amarillo{
+    background: linear-gradient(to bottom,yellow,white);
+    border: 1px solid black;
+}
+.azul{
+    border: 1px solid black;
+    background: linear-gradient(to bottom,blue,black );
+}
+.vbnet{
+    align-items: center;
+    grid-area: vbnet;
+    
+}
+.cmas{
+    align-items: center;
+    grid-area: cmas;
+    
+}
+.cchar{
+    align-items: center;
+    align-items: center;
+    grid-area: cnumeral;
+    
+
+}
+.jh{
+    align-items: center;
+    align-items: center;
+    grid-area: jnumeral;
+    
+
+}
+.puntos{
+    align-items: center;
+    grid-area: puntos ;
+   
+    
+}
+.visual{
+    display: flex;
+    align-items: center;
+    grid-area: visual;
+    background: radial-gradient( yellow,green);
+    border: 1px solid black;
+}
+.visual span{
+    -webkit-transform: rotate(90deg);
+    font-size: 30px;
+    
+}
+
+a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    
+}
+.cls{
+    align-items: center;
+    grid-area: cls;
+}
+.divi{
+    grid-area: divi;
+
+  
+}
+.middle{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ado{
+    align-items: center;
+    grid-area: adonet;
+    
+}
+.base{
+    align-items: center;
+    grid-area: base;
+}
+.common{
+    align-items: center;
+    grid-area: common;
+}
+.os{
+    align-items: center;
+    grid-area: os;
+}
+

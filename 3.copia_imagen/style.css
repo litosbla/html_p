@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(0.25turn,   #2c1802b7, #ebf8e100, #2c1802b7), url(assets/fondo1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container-central{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.head{
+    background-color: none;
+    height: 250px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.head .left-righ {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+    
+}
+.head .titulo-central{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.head .left-righ img{
+    width: 50%;
+
+}
+.head .left-righ em{
+    text-align: center;
+}
+.adorno{
+    
+    transform: translateY(-80px);
+    clip-path: inset(80px 80px 20px);
+}
+
+.titulo-central h1{
+    transform: translateY(-80px);
+}
+h1{
+    text-align: center;
+
+}
+
+
